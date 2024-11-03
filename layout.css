@@ -293,7 +293,7 @@ margin:auto;
 border:1px solid #555;
 outline:0px solid #555;
 border-radius:12px;
-margin:26px auto 26px;
+margin:40px auto 40px;
 padding:10px 10px 5px;
 }
 .minimalistcaption {
@@ -623,7 +623,7 @@ margin:-5px auto auto;
 .minimalistborder {
 border:1px solid #555;
 border-radius:12px;
-margin:50px auto 50px;
+margin:40px auto 40px;
 padding:12px 12px 12px;
 }
 .minimalistcaption {
@@ -733,7 +733,7 @@ font-size:1.0rem;
 }
 .summary {
 max-width:1000px;
-margin:40px auto 0px;
+margin:0px auto 0px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
@@ -1017,7 +1017,7 @@ each photo inline*/
 .minimalistborder {
 border:1px solid #555;
 border-radius:12px;
-margin:50px auto 50px;
+margin:40px auto 40px;
 padding:15px 15px 15px;
 }
 .minimalistcaption {
@@ -1132,7 +1132,7 @@ font-size:1.0rem;
 }
 .summary {
 max-width:1000px;
-margin:40px auto 0px;
+margin:0px auto 0px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
