@@ -14,6 +14,7 @@
 
 <!--Fonts-->
 <link rel="preload" href="fonts/OpenSans-Light.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="fonts/Montserrat-ThinItalic.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/ITCEDSCR.TTF" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="fonts/Montserrat-ExtraLightItalic.ttf" as="font" type="font/ttf" crossorigin>
 <style>
@@ -22,9 +23,6 @@ body {
 	background-color: #000;
 	font-family:OpenSans-Light;
         color:#FFFFFF;
-	<!--background-image: url(images/marble.jpg);
-	background-attachment: fixed;
-	background-repeat:repeat;-->
 }
 
 @media print {
@@ -54,6 +52,11 @@ body {
 @font-face {
   font-family:Montserrat-ExtraLightItalic;
   src: url(fonts/Montserrat-ExtraLightItalic.ttf);
+  font-display: block;
+}
+@font-face {
+  font-family:Montserrat-ThinItalic;
+  src: url(fonts/Montserrat-ThinItalic.ttf);
   font-display: block;
 }
 
@@ -105,13 +108,11 @@ document.addEventListener('keyup', (e) => {
 </noscript>
 
 <div style="text-align:center;">
-<div style="display:inline-block;border:1px solid #555;border-width:1px 0px 1px 0px;margin:auto;padding:6px 0px 6px;margin:26px auto 40px;">
-
+<div style="display:inline-block;border:1px solid #555;border-width:1px 0px 1px 0px;margin:auto;padding:6px 0px 6px;margin:0px auto 40px;">
 <p><b>Reich Research Articles and Memorials</b></p>
-
 </div>
 
-<div style="display:flex;justify-content:center;align-items:stretch;max-width:800px;gap:15px;flex-wrap:wrap;margin:0px auto 26px;">
+<div style="display:flex;justify-content:center;align-items:stretch;max-width:800px;gap:15px;flex-wrap:wrap;margin:0px auto 0px;">
 
 <figure style="max-width:300px;display:block;margin:0px auto 40px;">
 <a href="/pollyklaas" target="_blank">
@@ -126,7 +127,7 @@ document.addEventListener('keyup', (e) => {
 <img style="width:50%;" class="" src="images/pk2024h.jpg" alt="Polly Klaas"/>
 </div>
 </a>
-<figcaption><a href="/pollyklaas" target="_blank">The Jewishness of Polly Hannah Klaas</a></figcaption>
+<figcaption><a href="/pollyklaas" target="_blank"><b>The Jewishness of Polly Hannah Klaas</b></a></figcaption>
 </figure>
 
 <figure style="max-width:300px;display:block;margin:0px auto 40px;">
@@ -142,7 +143,7 @@ document.addEventListener('keyup', (e) => {
 <img style="width:50%;" class="" src="images/eugenereedh.jpg" alt="Eugene Reed"/>
 </div>
 </a>
-<figcaption><a href="/eugenereed" target="_blank">The Accomplished Life of Dr Eugene Rosenberg Reed</a></figcaption>
+<figcaption><a href="/eugenereed" target="_blank"><b>The Accomplished Life of Dr Eugene Rosenberg Reed</b></a></figcaption>
 </figure>
 
 <figure style="max-width:300px;display:block;margin:0px auto 40px;">
@@ -158,7 +159,7 @@ document.addEventListener('keyup', (e) => {
 <img style="width:50%;" class="" src="images/mariaanthonykatsariscolorreichh.jpg" alt="Katsaris"/>
 </div>
 </a>
-<figcaption><a href="/mariakatsaris" target="_blank">The Deadly Devotion of Maria Katsaris</a></figcaption>
+<figcaption><a href="/mariakatsaris" target="_blank"><b>The Deadly Devotion of Maria Katsaris</b></a></figcaption>
 </figure>
 
 <figure style="max-width:300px;display:block;margin:0px auto 40px;">
@@ -174,7 +175,7 @@ document.addEventListener('keyup', (e) => {
 <img style="width:50%;" class="" src="images/anthonystevenkatsarish.jpg" alt="Katsaris"/>
 </div>
 </a>
-<figcaption><a href="/mariakatsaris" target="_blank">Remembering Steven Katsaris</a></figcaption>
+<figcaption><a href="/mariakatsaris" target="_blank"><b>Remembering Steven Katsaris</b></a></figcaption>
 </figure>
 
 <figure style="max-width:300px;display:block;margin:0px auto 0px;">
@@ -190,10 +191,11 @@ document.addEventListener('keyup', (e) => {
 <img style="width:50%;" class="" src="images/georgiamoseslonghairh.jpg" alt="Georgia Moses"/>
 </div>
 </a>
-<figcaption><a href="/georgiamoses" target="_blank">The Tragic Death of Georgia Moses</a></figcaption>
+<figcaption><a href="/georgiamoses" target="_blank"><b>The Tragic Death of Georgia Moses</b></a></figcaption>
 </figure>
 
 </div>
+
 
 <div class="reichfooterimg"><img src="images/memorialsitepreview.jpg" alt="Reich Research"/></div>
 <div class="reichfootertxt"><i><b>Reich Research</b><br>E-mail: <a href="mailto:contact@reichresearch.org"><i>contact@reichresearch.org</i></a><br>Copyright 2024 All Rights Reserved</i></div>
@@ -217,6 +219,8 @@ video.addEventListener('ended', function() {
 <script src="iframe-resizer.child.js"></script>
 
 <script>iframeResize({ license: "GPLv3" });</script>
+
+</div>
 
 </body>
 </html>
