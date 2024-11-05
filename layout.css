@@ -109,24 +109,24 @@ margin:auto;
 padding:0px 0px 5px;
 }
 .reichheader {
-max-width:90px;
+max-width:60px;
 }
 .starofdavidheaderleft {
-max-width:40px;
+max-width:30px;
 padding-left:5px;
 }
 .starofdavidheaderright {
-max-width:40px;
+max-width:30px;
 padding-right:5px;
 }
 .reichtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:34px;
+font-size:32px;
 }
 .reichsubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:13px;
+font-size:10.5px;
 }
 .reichcftitle {
 font-family:ITCEDSCR;
