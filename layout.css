@@ -422,6 +422,10 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.sylviaralyareinsch {
+margin-left: auto;
+margin-right: auto;
+}
 .pollyklaasreed {
 margin-left: auto;
 margin-right: auto;
@@ -825,6 +829,11 @@ margin-right:15px;
 max-width: 450px;
 float:right;
 margin-left:15px;
+}
+.sylviaralyareinsch {
+max-width: 450px;
+float:left;
+margin-right:15px;
 }
 .pollyklaasreed {
 max-width: 450px;
@@ -1234,6 +1243,11 @@ margin-right:15px;
 max-width: 650px;
 float:right;
 margin-left:15px;
+}
+.sylviaralyareinsch {
+max-width: 655px;
+float:left;
+margin-right:15px;
 }
 .pollyklaasreed {
 max-width: 650px;
