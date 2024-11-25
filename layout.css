@@ -432,6 +432,11 @@ margin-right: auto;
 margin-left: auto;
 margin-right: auto;
 }
+.newspaperquote {
+font-family:Montserrat-ThinItalic;
+font-size:1.0rem;
+line-height:1.6;
+}
 .pollyklaasreed {
 margin-left: auto;
 margin-right: auto;
@@ -846,6 +851,11 @@ margin-left:15px;
 max-width: 450px;
 float:left;
 margin-right:15px;
+}
+.newspaperquote {
+font-family:Montserrat-ThinItalic;
+font-size:1.0rem;
+line-height:1.6;
 }
 .pollyklaasreed {
 max-width: 450px;
@@ -1266,6 +1276,11 @@ margin-left:15px;
 max-width: 655px;
 float:left;
 margin-right:15px;
+}
+.newspaperquote {
+font-family:Montserrat-ThinItalic;
+font-size:1.0rem;
+line-height:1.6;
 }
 .pollyklaasreed {
 max-width: 650px;
