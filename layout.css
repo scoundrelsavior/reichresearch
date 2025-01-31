@@ -135,20 +135,20 @@ border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
 margin:5px auto 15px;
 }
-.reichcfheader {
+.reichresearchheader {
 display:flex;
 flex-direction:row;
 justify-content:space-between;
 align-items:center;
 }
-.reichcftitle {
+.reichresearchtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:2.0rem;
 text-align:center;
 margin:0px auto 0px;
 }
-.reichcfsubtitle {
+.reichresearchsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:0.85rem;
 text-align:center;
@@ -776,20 +776,20 @@ border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
 margin:0px auto 10px;
 }
-.reichcfheader {
+.reichresearchheader {
 display:flex;
 flex-direction:row;
 justify-content:space-between;
 align-items:center;
 }
-.reichcftitle {
+.reichresearchtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:2.5rem;
 text-align:center;
 margin:0px auto 0px;
 }
-.reichcfsubtitle {
+.reichresearchsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:0.90rem;
 text-align:center;
@@ -1217,20 +1217,20 @@ border-width:1px 0px 1px 0px;
 padding:8px 0px 8px;
 margin:0px auto 10px;
 }
-.reichcfheader {
+.reichresearchheader {
 display:flex;
 flex-direction:row;
 justify-content:space-between;
 align-items:center;
 }
-.reichcftitle {
+.reichresearchtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
 font-size:2.5rem;
 text-align:center;
 margin:0px auto 0px;
 }
-.reichcfsubtitle {
+.reichresearchsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:0.90rem;
 text-align:center;
