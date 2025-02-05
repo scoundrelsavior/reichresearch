@@ -131,8 +131,8 @@ font-size:10.5px;
 .titlelines {
 display:inline-block;
 border:1px solid #555;
-border-width:1px 0px 1px 0px;
-padding:8px 0px 8px;
+border-width:0px 0px 0px 0px;
+padding:0px 0px 0px;
 margin:5px auto 15px;
 }
 .header {
@@ -154,25 +154,25 @@ text-align:center;
 .reichresearchtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:2.0rem;
+font-size:1.8rem;
 text-align:center;
 margin:0px auto 0px;
 }
 .reichresearchsubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:0.85rem;
+font-size:0.80rem;
 text-align:center;
 margin:0px auto 0px;
 }
 .reichfooterimg {
-display:block;
 max-width:140px;
-margin:35px auto 0px;
+margin:15px auto 0px;
 }
 .reichfootertxt {
-margin:0px auto 35px;
 text-align:center;
-font-size:0.95rem; 
+font-size:1.0rem; 
+line-height:1.8;
+margin:0px auto 15px;
 }
 .summary {
 line-height:1.6;
@@ -633,6 +633,10 @@ border:1px solid #555;
 border-width:0px 0px 0px 0px;
 border-radius:10px;
 }
+footer {
+margin-top:auto;
+margin-bottom:0px;
+}
 .tableofcontents {
 padding:6px;
 }
@@ -776,8 +780,8 @@ padding-right:15px;
 .titlelines {
 display:inline-block;
 border:1px solid #555;
-border-width:1px 0px 1px 0px;
-padding:8px 0px 8px;
+border-width:0px 0px 0px 0px;
+padding:0px 0px 0px;
 margin:0px auto 10px;
 }
 .reichtitle {
@@ -792,8 +796,8 @@ font-size:14px;
 .titlelines {
 display:inline-block;
 border:1px solid #555;
-border-width:1px 0px 1px 0px;
-padding:8px 0px 8px;
+border-width:0px 0px 0px 0px;
+padding:0px 0px 0px;
 margin:0px auto 10px;
 }
 .header {
@@ -815,25 +819,25 @@ text-align:center;
 .reichresearchtitle {
 font-family:ITCEDSCR;
 color:#EFEFEF;
-font-size:2.5rem;
+font-size:2.2rem;
 text-align:center;
 margin:0px auto 0px;
 }
 .reichresearchsubtitle {
 font-family:Montserrat-ThinItalic;
-font-size:0.90rem;
+font-size:0.85rem;
 text-align:center;
 margin:0px auto 0px;
 }
 .reichfooterimg {
-display:block;
 max-width:140px;
-margin:35px auto 0px;
+margin:15px auto 0px;
 }
 .reichfootertxt {
-margin:0px auto 35px;
 text-align:center;
 font-size:1.0rem; 
+line-height:1.8;
+margin:0px auto 15px;
 }
 .summary {
 max-width:1000px;
@@ -1088,6 +1092,10 @@ border:1px solid #555;
 border-width:1px 1px 1px 1px;
 border-radius:0px;
 }
+footer {
+margin-top:auto;
+margin-bottom:0px;
+}
 .tableofcontents {
 padding: 15px;
 }
@@ -1247,8 +1255,8 @@ font-size:15px;
 .titlelines {
 display:inline-block;
 border:1px solid #555;
-border-width:1px 0px 1px 0px;
-padding:8px 0px 8px;
+border-width:0px 0px 0px 0px;
+padding:0px 0px 0px;
 margin:0px auto 10px;
 }
 .header {
@@ -1280,15 +1288,14 @@ text-align:center;
 margin:0px auto 0px;
 }
 .reichfooterimg {
-display:block;
 max-width:140px;
-margin:35px auto 0px;
+margin:15px auto 0px;
 }
 .reichfootertxt {
-margin:0px auto 35px;
 text-align:center;
 font-size:1.0rem; 
-line-height:1.9;
+line-height:1.6;
+margin:0px auto 15px;
 }
 .summary {
 max-width:1000px;
@@ -1444,6 +1451,10 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:1px 1px 1px 1px;
 max-width:1361px;
+}
+footer {
+margin-top:auto;
+margin-bottom:0px;
 }
 .content {
 display:block;
