@@ -870,7 +870,7 @@ font-size:0.95rem;
 }
 .summary {
 max-width:1000px;
-margin:0px auto 0px;
+margin:40px auto 15px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
@@ -1340,7 +1340,7 @@ font-size:0.95rem;
 }
 .summary {
 max-width:1000px;
-margin:0px auto 0px;
+margin:40px auto 15px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
@@ -1495,7 +1495,7 @@ max-width:1333px;
 }
 footer {
 margin-top:auto;
-margin-bottom:26px;
+margin-bottom:30px;
 }
 .content {
 display:block;
