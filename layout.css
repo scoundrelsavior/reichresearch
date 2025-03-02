@@ -166,7 +166,7 @@ margin:0px auto 0px;
 }
 .reichfooterimg {
 max-width:140px;
-margin:15px auto 0px;
+margin:15px auto 10px;
 }
 .reichfootertxt {
 text-align:center;
@@ -277,6 +277,10 @@ margin:0px 0px 0px;
 border:1px solid #555;
 border-width:0px 0px 0px 0px;
 border-radius:10px;
+}
+footer {
+margin-top:auto;
+margin-bottom:30px;
 }
 .tableofcontents {
 padding:0px;
@@ -635,7 +639,7 @@ border-radius:10px;
 }
 footer {
 margin-top:auto;
-margin-bottom:15px;
+margin-bottom:30px;
 }
 .tableofcontents {
 padding:6px;
@@ -1289,11 +1293,11 @@ margin:0px auto 0px;
 }
 .reichfooterimg {
 max-width:140px;
-margin:15px auto 0px;
+margin:15px auto 50px;
 }
 .reichfootertxt {
 text-align:center;
-font-size:1.0rem; 
+font-size:0.8rem; 
 line-height:1.6;
 margin:0px auto 15px;
 }
