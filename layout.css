@@ -870,7 +870,7 @@ font-size:0.95rem;
 }
 .summary {
 max-width:1000px;
-margin:26px auto 26px;
+margin:26px auto 0px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
@@ -1340,7 +1340,7 @@ font-size:0.95rem;
 }
 .summary {
 max-width:1000px;
-margin:26px auto 26px;
+margin:26px auto 0px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
