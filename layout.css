@@ -173,9 +173,9 @@ max-width:130px;
 margin:0px auto 6px;
 }
 .reichtitlefootertxt {
+text-align:center;
 font-family:ITCEDSCR;
 font-size:2.0rem;
-text-align:center;
 }
 .reichsubtitlefootertxt {
 text-align:center;
@@ -851,6 +851,7 @@ max-width:130px;
 margin:0px auto 6px;
 }
 .reichtitlefootertxt {
+text-align:center;
 font-family:ITCEDSCR;
 font-size:2.0rem;
 }
@@ -1321,6 +1322,7 @@ max-width:130px;
 margin:0px auto 6px;
 }
 .reichtitlefootertxt {
+text-align:center;
 font-family:ITCEDSCR;
 font-size:2.0rem;
 }
