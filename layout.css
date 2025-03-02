@@ -635,7 +635,7 @@ border-radius:10px;
 }
 footer {
 margin-top:auto;
-margin-bottom:0px;
+margin-bottom:15px;
 }
 .tableofcontents {
 padding:6px;
@@ -1094,7 +1094,7 @@ border-radius:0px;
 }
 footer {
 margin-top:auto;
-margin-bottom:0px;
+margin-bottom:15px;
 }
 .tableofcontents {
 padding: 15px;
@@ -1454,7 +1454,7 @@ max-width:1333px;
 }
 footer {
 margin-top:auto;
-margin-bottom:0px;
+margin-bottom:15px;
 }
 .content {
 display:block;
