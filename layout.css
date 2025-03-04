@@ -175,21 +175,21 @@ margin:0px auto 6px;
 .reichtitlefootertxt {
 text-align:center;
 font-family:ITCEDSCR;
-font-size:2.0rem;
+font-size:1.9rem;
 }
 .reichsubtitlefootertxt {
 text-align:center;
-font-size:0.95rem;
+font-size:0.9rem;
 margin-bottom:6px;
 }
 .reichemailfootertxt {
 text-align:center;
-font-size:0.95rem;
+font-size:0.9rem;
 margin-bottom:6px;
 }
 .reichcopyrightfootertxt {
 text-align:center;
-font-size:0.95rem;
+font-size:0.9rem;
 }
 .summary {
 line-height:1.6;
@@ -532,8 +532,8 @@ scroll-margin-top:10px;
 scroll-margin-top:10px;
 }
 
-/* Tablet Layout: 701px to 835px - Ipad Pro 11-inch down to
-600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
+/* Tablet Layout or Landscape Rotated Phones: 701px to 835px - Ipad Pro 11-inch
+down to 600px wide Kindle Fires and Samsung Galaxy Tab 2. These are 600px
 wide but I take it to 701 to be on the safe side. Most of my images
 are 700px max so stop here.
 Inherits styles from: Mobile Layout. */
@@ -871,7 +871,7 @@ font-size:0.95rem;
 }
 .summary {
 max-width:1000px;
-margin:26px auto 0px;
+margin:26px auto 15px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
@@ -1342,7 +1342,7 @@ font-size:0.95rem;
 }
 .summary {
 max-width:1000px;
-margin:26px auto 0px;
+margin:26px auto 15px;
 text-align:justify;
 line-height:2.0;
 display:inline-block;
