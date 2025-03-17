@@ -384,8 +384,10 @@ line-height:1.4;
 figcaption {
 font-family:Montserrat-ThinItalic;
 font-size:0.85rem;
+line-height:1.6;
+text-align:justify;
 padding-top:10px;
-padding-bottom:2px;
+margin-bottom:0px;
 color:white;
 }
 .figcaptionborder {
@@ -403,7 +405,7 @@ padding-top:0px;
 padding-bottom:10px;
 margin:0px auto 15px;
 }
-.katsaris {
+.mariaanthonykatsaris{
 margin-left:auto;
 margin-right:auto;
 }
@@ -737,8 +739,10 @@ line-height:1.4;
 figcaption {
 font-family:Montserrat-ThinItalic;
 font-size: 0.95rem;
+line-height:1.4;
+text-align:justify;
 padding-top:10px;
-padding-bottom:2px;
+margin-bottom:5px;
 color:white;
 }
 .figcaptionborder {
@@ -754,15 +758,10 @@ border:1px solid #555;
 padding-bottom:10px;
 margin:26px auto 26px;
 }
-.katsaris {
-max-width: 500px;
-float:right;
-margin-left:15px;
-margin-top:5px;
-margin-bottom:5px;
-border:0px solid #555;
-border-radius:0px;
-display:block;
+.mariaanthonykatsaris{
+max-width:850px;
+margin-left:auto;
+margin-right:auto;
 }
 .stevenkatsaris {
 max-width: 500px;
@@ -815,7 +814,7 @@ margin:-2px auto -2px;
 .headerhr {
 margin:15px auto 15px;
 border:1px solid #555;
-border-width:0px 0px 1px 0px;
+border-width:0px 0px 0px 0px;
 }
 .reichresearchheader {
 display:flex;
@@ -927,12 +926,9 @@ float:right;
 margin-left:15px;
 }
 .mariakatsaristeen {
-float:left;
-margin-right:15px;
-margin-top:5px;
-margin-bottom:5px;
 max-width:500px;
-display:block;
+float:right;
+margin-left:15px;
 }
 .eugenereed {
 max-width: 450px;
@@ -1003,8 +999,29 @@ scroll-margin-top:26px;
 }
 }
 
-/* Desktop Layout: 835px to a max of 1366px - Everything above Ipad Pro 11-inch. Inherits styles from: Mobile Layout and Tablet Layout. */
-@media only screen and (min-width: 835px) {
+/* 12.9 inch Ipad 1024x1366 Custom. This is just for 12-inch Ipad layouts holding
+rotated mobile phones up to 1000px long into account. Inherits styles from: 
+Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1001px) {
+
+.headerhr {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
+.mariaanthonykatsaris{
+max-width:700px;
+float:left;
+margin-right:15px;
+}
+.mariakatsaristeen {
+max-width:600px;
+float:right;
+margin-left:15px;
+}
+
+/* Desktop Layout: 1025px to a max of 1366px - Everything above Ipad Pro 12.9. Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 1025px) {
 
 /* Responsive flex two-column layout over 835px */
 .flex-container {
@@ -1204,9 +1221,11 @@ line-height:1.4;
 }
 figcaption {
 font-family:Montserrat-ThinItalic;
+text-align:justify;
 font-size: 0.95rem;
+line-height:1.4;
 padding-top:10px;
-padding-bottom:2px;
+margin-bottom:5px;
 color:white;	
 }
 .figcaptionborder {
@@ -1222,15 +1241,10 @@ border:1px solid #555;
 padding-bottom:10px;
 margin:26px auto 26px;
 }
-.katsaris {
-max-width: 700px;
-float:right;
-margin-left:15px;
-margin-top:5px;
-margin-bottom:0px;
-border:0px solid #555;
-border-radius:0px;
-display:block;
+.mariaanthonykatsaris{
+max-width:850px;
+float:left;
+margin-right:15px;
 }
 .stevenkatsaris {
 max-width: 700px;
@@ -1392,12 +1406,9 @@ line-height:1.5;
 max-width:440px;
 }
 .mariakatsaristeen {
-float:left;
-margin-right:15px;
-margin-top:5px;
-margin-bottom:5px;
 max-width:600px;
-display:block;
+float:right;
+margin-left:15px;
 }
 .eugenereed {
 max-width: 650px;
