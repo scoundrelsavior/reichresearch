@@ -150,6 +150,11 @@ margin:10px auto 0px;
 border:1px solid #555;
 border-width:0px 0px 0px 0px;
 }
+.headerhralways {
+margin:10px auto 0px;
+border:1px solid #555;
+border-width:0px 0px 0px 0px;
+}
 .reichresearchheader {
 display:flex;
 flex-direction:row;
@@ -813,6 +818,11 @@ margin:15px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 0px 0px;
 }
+.headerhralways {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
 .reichresearchheader {
 display:flex;
 flex-direction:row;
@@ -1007,6 +1017,11 @@ Mobile Layout and Tablet Layout. */
 @media only screen and (min-width: 1001px) {
 
 .headerhr {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
+.headerhralways {
 margin:15px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
@@ -1306,6 +1321,11 @@ text-align:center;
 margin:-8px auto -8px;
 }
 .headerhr {
+margin:15px auto 15px;
+border:1px solid #555;
+border-width:0px 0px 1px 0px;
+}
+.headerhralways {
 margin:15px auto 15px;
 border:1px solid #555;
 border-width:0px 0px 1px 0px;
