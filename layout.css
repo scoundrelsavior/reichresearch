@@ -137,9 +137,9 @@ font-size:10.5px;
 .titlelines {
 display:inline-block;
 border:1px solid #555;
-border-width:0px 0px 0px 0px;
-padding:0px 0px 0px;
-margin:5px auto 15px;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:26px auto 26px;
 }
 .header {
 text-align:center;
@@ -787,9 +787,9 @@ padding-right:15px;
 .titlelines {
 display:inline-block;
 border:1px solid #555;
-border-width:0px 0px 0px 0px;
-padding:0px 0px 0px;
-margin:0px auto 10px;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:15px auto 13px;
 }
 .reichtitle {
 font-family:ITCEDSCR;
@@ -799,13 +799,6 @@ font-size:43px;
 .reichsubtitle {
 font-family:Montserrat-ThinItalic;
 font-size:14px;
-}
-.titlelines {
-display:inline-block;
-border:1px solid #555;
-border-width:0px 0px 0px 0px;
-padding:0px 0px 0px;
-margin:0px auto 10px;
 }
 .header {
 text-align:center;
@@ -1284,9 +1277,9 @@ font-size:15px;
 .titlelines {
 display:inline-block;
 border:1px solid #555;
-border-width:0px 0px 0px 0px;
-padding:0px 0px 0px;
-margin:0px auto 10px;
+border-width:1px 0px 1px 0px;
+padding:8px 0px 8px;
+margin:15px auto 13px;
 }
 .header {
 text-align:center;
